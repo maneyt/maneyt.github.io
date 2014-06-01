@@ -1,0 +1,50 @@
+html {
+	background: url(images/bg1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	/*background-color: #0077BF;*/
+}
+
+
+
+.links {
+	position: fixed;
+	margin: auto 500px auto 500px;
+	z-index: 1;
+}
+
+.links img {
+
+	display: inline-block;
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+	background-color: white;
+	box-shadow: 4px 4px 2px black;
+}
+
+img:hover{
+	border: 5px solid green;
+}
+
+#content {
+	background-color: black;
+	opacity: .6;
+	width: 800px;
+	text-align: center;
+	font-family: Arial;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+}
+
+h1 {
+	font-size: 3em;
+	color: white;
+	opacity: .9;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+}
